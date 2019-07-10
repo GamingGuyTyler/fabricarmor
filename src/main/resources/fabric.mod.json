@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Fabric Armor",
+  "description": "Improved wool armor, because that's basically what fabric is.",
+  "authors": [
+    "ggtylerr"
+  ],
+  "_comment": "TODO: Make literally everything below.",
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/fabric-armor"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ggtylerr.fabricarmor.FabricArmor"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "fabric_armor:item/fabric_helmet",
+		"layer1": "fabric_armor:item/fabric_helmet_overlay"
+    }
+}

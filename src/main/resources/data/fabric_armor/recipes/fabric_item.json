@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"//",
+		"WW",
+		"WW"
+	],
+	"key": {
+		"/": {
+			"item": "minecraft:stick"
+		},
+		"W": {
+			"item": "minecraft:white_wool"
+		}
+	},
+	"result": {
+		"item": "fabric_armor:fabric_item"
+	}
+}

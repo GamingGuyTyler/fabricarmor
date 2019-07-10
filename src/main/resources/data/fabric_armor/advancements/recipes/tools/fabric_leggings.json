@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"fabric_armor:fabric_leggings"
+		]
+	},
+	"criteria": {
+		"has_fabric": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "fabric_armor:fabric_item"
+					}
+				]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "fabric_armor:fabric_leggings"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_fabric",
+			"has_recipe"
+		]
+	]
+}
