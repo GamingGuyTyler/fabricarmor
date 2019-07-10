@@ -1,4 +1,4 @@
-# fabricarmor
+# Fabric Armor
 For showing off fabric.
 
 Requires Fabric API.
