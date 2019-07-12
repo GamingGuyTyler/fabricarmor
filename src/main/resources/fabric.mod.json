@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fabric_armor",
   "version": "${version}",
 
   "name": "Fabric Armor",
