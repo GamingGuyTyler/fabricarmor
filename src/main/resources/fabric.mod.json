@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fabric_armor",
-  "version": "1.2.0",
+  "version": "1.2.1",
 
   "name": "Fabric Armor",
   "description": "Improved wool armor, because that's basically what fabric is.",

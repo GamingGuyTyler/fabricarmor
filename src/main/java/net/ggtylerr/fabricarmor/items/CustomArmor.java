@@ -67,7 +67,6 @@ public enum CustomArmor implements ArmorMaterial {
         return this.toughness;
     }
 
-    @Override
     public float getKnockbackResistance() {
         return this.knockbackResistance;
     }
